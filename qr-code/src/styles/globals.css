@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: "outfit";
+  src: url("../fonts/outfit/Outfit-VariableFont_wght.ttf");
+}
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "outfit", Arial, Helvetica, sans-serif;
+}
+
+.--gray.bg {
+  background-color: #d6e2f0;
+}
+.--gray.font {
+  color: #d6e2f0;
+}
+
+.--blue1.bg {
+  background-color: #7b879d;
+}
+.--blue1.font {
+  color: #7b879d;
+}
+
+.--blue2.bg {
+  background-color: #1f3251;
+}
+.--blue2.font {
+  color: #1f3251;
+}
